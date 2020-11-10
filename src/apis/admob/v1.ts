@@ -784,7 +784,7 @@ export namespace admob_v1 {
     }
 
     /**
-     * Generates an AdMob Mediation report based on the provided report specification.
+     * Generates an AdMob Mediation report based on the provided report specification. Returns result of a server-side streaming RPC. The result is returned in a sequence of responses.
      * @example
      * ```js
      * // Before running the sample:
@@ -952,7 +952,7 @@ export namespace admob_v1 {
     }
 
     /**
-     * Generates an AdMob Network report based on the provided report specification.
+     * Generates an AdMob Network report based on the provided report specification. Returns result of a server-side streaming RPC. The result is returned in a sequence of responses.
      * @example
      * ```js
      * // Before running the sample:
