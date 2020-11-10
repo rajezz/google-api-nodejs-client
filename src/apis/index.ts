@@ -297,6 +297,7 @@ import {
   VERSIONS as networkmanagementVersions,
   networkmanagement,
 } from './networkmanagement';
+import {VERSIONS as notebooksVersions, notebooks} from './notebooks';
 import {VERSIONS as oauth2Versions, oauth2} from './oauth2';
 import {VERSIONS as osconfigVersions, osconfig} from './osconfig';
 import {VERSIONS as osloginVersions, oslogin} from './oslogin';
@@ -582,6 +583,7 @@ export const APIS: APIList = {
   ml: mlVersions,
   monitoring: monitoringVersions,
   networkmanagement: networkmanagementVersions,
+  notebooks: notebooksVersions,
   oauth2: oauth2Versions,
   osconfig: osconfigVersions,
   oslogin: osloginVersions,
@@ -779,6 +781,7 @@ export class GeneratedAPIs {
   ml = ml;
   monitoring = monitoring;
   networkmanagement = networkmanagement;
+  notebooks = notebooks;
   oauth2 = oauth2;
   osconfig = osconfig;
   oslogin = oslogin;

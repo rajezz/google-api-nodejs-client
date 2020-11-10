@@ -221,6 +221,7 @@ export {monitoring_v1} from './apis/monitoring/v1';
 export {monitoring_v3} from './apis/monitoring/v3';
 export {networkmanagement_v1} from './apis/networkmanagement/v1';
 export {networkmanagement_v1beta1} from './apis/networkmanagement/v1beta1';
+export {notebooks_v1} from './apis/notebooks/v1';
 export {oauth2_v2} from './apis/oauth2/v2';
 export {osconfig_v1} from './apis/osconfig/v1';
 export {osconfig_v1beta} from './apis/osconfig/v1beta';
